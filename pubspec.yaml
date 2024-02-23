@@ -1,0 +1,82 @@
+name: creavexes3
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  pin_code_fields: ^8.0.1
+  flutter_rating_bar: ^4.0.1
+  smooth_page_indicator: ^1.1.0
+  sms_autofill: ^2.3.0
+  flutter_svg_provider: ^1.0.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/MontserratRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/MontserratRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: Roboto Condensed
+      fonts: 
+        - asset: assets/fonts/RobotoCondensedRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+    - family: SF Pro Text
+      fonts: 
+        - asset: assets/fonts/SFProTextSemibold.ttf
+          weight: 600
+    - family: Rounded Mplus 1c
+      fonts: 
+        - asset: assets/fonts/RoundedMplus1cMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RoundedMplus1cExtraBold.ttf
+          weight: 800
